@@ -1,0 +1,152 @@
+public byte[] getServerIP() {
+        byte[] sip = new byte[4];
+
+        try {
+//            System.out.println(InetAddress.getLocalHost().getHostAddress());
+            sip = InetAddress.getLocalHost().getAddress();
+            for (byte b : sip) {
+//                System.out.printf("0x%02X", b);
+//                System.out.printf(" ");
+            }
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+
+//        InetSocketAddress sockaddr = (InetSocketAddress)serverSock.getRemoteSocketAddress();
+//        InetAddress inaddr = sockaddr.getAddress();
+//        Inet4Address in4addr = (Inet4Address)inaddr;
+//        sip = in4addr.getAddress();
+        return sip;
+    }
+
+
+
+=========================================================================================
+
+
+
+public void passToJs() throws IOException {
+        System.out.println("Client starts constructor");
+        Socket socket = new Socket("localhost", 20000);
+        System.out.println("Client Socket is initialized");
+        BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+
+        writer.write("{one:two}");
+        writer.flush();
+
+        String line = reader.readLine();
+        System.out.println("Server Response: " + line);
+    }
+
+
+==============================================================================================
+
+
+
+public static ArrayList<String> getRangeIP() {
+        ArrayList<String> ipList = new ArrayList<>();
+        ipList.clear();
+        for (NetworkIP ipClass : rangeIP) {
+            if (ipClass.isAvailable) {
+                byte[] thisIp = ipClass.getMyIp();
+                String itemIp = "";
+                for (byte xip : thisIp) {
+                    itemIp = itemIp + String.valueOf(xip & 0xff) + ".";
+                }
+                ipList.add(itemIp);
+            }
+        }
+        return ipList;
+    }
+
+
+
+================================================================================================
+
+
+public class GraphicUI{
+    ArrayList<String> myList = new ArrayList<>();
+
+    public void run() {
+        while (true) {
+            myList.clear();
+            Server server = new Server();
+            myList = server.getRangeIP();
+            System.out.println(myList.size());
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        GraphicUI gui = new GraphicUI();
+        gui.run();
+    }
+}
+
+====================================================================================================
+
+
+public class DynamicLayout extends JPanel {
+
+    private static final LayoutManager H = new GridLayout(1, 0);
+    private static final LayoutManager V = new GridLayout(0, 1);
+
+    public DynamicLayout() {
+        this.setLayout(H);
+        this.setPreferredSize(new Dimension(520, 240));
+        for (int i = 0; i < 3; i++) {
+            this.add(new JLabel("Label " + String.valueOf(i), JLabel.CENTER));
+        }
+    }
+
+    private void display() throws InterruptedException {
+        JFrame f = new JFrame("DynamicLayout");
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.add(this);
+        JPanel p = new JPanel();
+        p.add(new JButton(new AbstractAction("Horizontal") {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                DynamicLayout.this.setLayout(H);
+                DynamicLayout.this.validate();
+            }
+        }));
+        p.add(new JButton(new AbstractAction("Vertical") {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                DynamicLayout.this.setLayout(V);
+                DynamicLayout.this.validate();
+            }
+        }));
+        f.add(p, BorderLayout.SOUTH);
+        f.pack();
+        f.setLocationRelativeTo(null);
+        f.setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
+
+            @Override
+            public void run() {
+                try {
+                    new DynamicLayout().display();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
+}
+
+
+=====================================================================================================
+
+
