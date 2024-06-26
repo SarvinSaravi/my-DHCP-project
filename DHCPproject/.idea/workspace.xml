@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f66f07a0-b8fc-4931-b8b9-70ef22667377" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mBloITsdiCcbF5NaMWR8kWlsGK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.Client" />
+      <module name="DHCPproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.DynamicLayout" />
+      <module name="DHCPproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphicUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structures.gui.GraphicUI" />
+      <module name="DHCPproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structures.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <module name="DHCPproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/structures/gui/script.js" working-dir="$PROJECT_DIR$/src/structures/gui">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.DynamicLayout" />
+        <item itemvalue="Application.GraphicUI" />
+        <item itemvalue="Node.js.script.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f66f07a0-b8fc-4931-b8b9-70ef22667377" name="Default Changelist" comment="" />
+      <created>1608975038542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608975038542</updated>
+      <workItem from="1608975044254" duration="2311000" />
+      <workItem from="1609057055556" duration="2913000" />
+      <workItem from="1609140242079" duration="4804000" />
+      <workItem from="1609572810697" duration="6549000" />
+      <workItem from="1609658060985" duration="4850000" />
+      <workItem from="1609746414220" duration="6131000" />
+      <workItem from="1609830699888" duration="8204000" />
+      <workItem from="1610002466972" duration="5473000" />
+      <workItem from="1610176213169" duration="10454000" />
+      <workItem from="1610262323571" duration="10943000" />
+      <workItem from="1610295548260" duration="5621000" />
+      <workItem from="1610349440258" duration="7060000" />
+      <workItem from="1610437239208" duration="6571000" />
+      <workItem from="1610521714234" duration="9969000" />
+      <workItem from="1610563132541" duration="2531000" />
+      <workItem from="1610697499559" duration="6474000" />
+      <workItem from="1610815100454" duration="6663000" />
+      <workItem from="1610872067756" duration="7343000" />
+      <workItem from="1610953731162" duration="11661000" />
+      <workItem from="1611041681909" duration="6685000" />
+      <workItem from="1611211964609" duration="6027000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1611043279565">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1611043279565" />
+    <state x="413" y="115" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1609662542522">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="115" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1609662542522" />
+    <state x="445" y="250" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1611044547944">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="445" y="250" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1611044547944" />
+    <state width="1323" height="216" key="GridCell.Tab.0.bottom" timestamp="1611224737767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610308320552" />
+    <state width="1323" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611224737767" />
+    <state width="1323" height="216" key="GridCell.Tab.0.center" timestamp="1611224737767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610308320537" />
+    <state width="1323" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611224737767" />
+    <state width="1323" height="216" key="GridCell.Tab.0.left" timestamp="1611224737767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610308320537" />
+    <state width="1323" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611224737767" />
+    <state width="1323" height="216" key="GridCell.Tab.0.right" timestamp="1611224737767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610308320552" />
+    <state width="1323" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611224737767" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1610969947606">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610969947606" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1610969947606">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1610969947606" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1610969947606">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1610969947606" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1610969947606">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1610969947606" />
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1611211964525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1611211964525" />
+    <state x="401" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1611043319446">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="401" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1611043319446" />
+    <state x="413" y="151" key="extract.method.dialog" timestamp="1610701176274">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="151" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1610701176274" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1610815463564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1610815463564" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610701356392">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610701356392" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/structures/gui/GraphicUI.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
